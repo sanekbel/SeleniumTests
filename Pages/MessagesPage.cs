@@ -5,13 +5,13 @@ using System.Text;
 
 namespace SeleniumTests.Pages
 {
-    class AboutPage : BasePage
+    class Messages : BasePage
     {
-        public AboutPage(IWebDriver driver)
+        public Messages(IWebDriver driver)
         {
             _driver = driver;
-            _title = "About";
-            _uri = "Home/About";
+            _title = "ListMessages";
+            _uri = "/";
             Configure();
         }
     }

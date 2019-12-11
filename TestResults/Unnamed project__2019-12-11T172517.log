@@ -1,0 +1,216 @@
+﻿2019-12-11T17:25:17.2983185+03:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-12-11T17:25:17.2983643+03:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.1.33 in Framework netcore21 in x64 mode execution started
+2019-12-11T17:25:17.2983661+03:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp2.1\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-12-11T17:25:17.3469729+03:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp2.1\SeleniumTests.dll
+2019-12-11T17:25:17.3476784+03:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\TestResults" (default)
+2019-12-11T17:25:17.3477867+03:00;VSTestExecutionThread;Info;Profile: 
+2019-12-11T17:25:17.4542606+03:00;VSTestExecutionThread;Info;Log file path: C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\TestResults\Unnamed project__2019-12-11T172517.log
+2019-12-11T17:25:17.4698401+03:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-12-11T17:25:17.4906315+03:00;Thread#12;Info;Checking license
+2019-12-11T17:25:17.5183295+03:00;Thread#12;Info;Evaluation mode: test execution starts in 13 seconds... (this delay is removed in the registered version)
+2019-12-11T17:25:30.5190484+03:00;Thread#12;Info;Evaluation delay finished.
+2019-12-11T17:25:30.5259127+03:00;Thread#12;Info;License check completed
+2019-12-11T17:25:30.5260676+03:00;Thread#12;Info;starting test run
+2019-12-11T17:25:30.5583896+03:00;Thread#12;Info;Discovering target: Default
+2019-12-11T17:25:30.5585232+03:00;Thread#12;Info;Discovering tests from assembly: C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp2.1\SeleniumTests.dll
+2019-12-11T17:25:30.8611979+03:00;Thread#12;Info;Discovered tests from assembly: C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp2.1\SeleniumTests.dll
+2019-12-11T17:25:30.8625019+03:00:Test Suite Dump
+2019-12-11T17:25:30.8641501+03:00:#0: Unnamed project/ - 
+2019-12-11T17:25:30.8641665+03:00:#1: Default - 
+2019-12-11T17:25:30.8641689+03:00:#2: SeleniumTests - 
+2019-12-11T17:25:30.8641707+03:00:#5: Navigation - 
+2019-12-11T17:25:30.8665421+03:00:#6: Index page link, Variant 0 - TestAssembly:SeleniumTests/Feature:Navigation/Scenario:Index+page+link%2c+Variant+0
+2019-12-11T17:25:30.8665839+03:00:#7: Index page link, Variant 1 - TestAssembly:SeleniumTests/Feature:Navigation/Scenario:Index+page+link%2c+Variant+1
+2019-12-11T17:25:30.8665910+03:00:#8: Index page link, Variant 2 - TestAssembly:SeleniumTests/Feature:Navigation/Scenario:Index+page+link%2c+Variant+2
+2019-12-11T17:25:30.8666542+03:00:End: Test Suite Dump
+2019-12-11T17:25:30.8886056+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-12-11T17:25:30.8913105+03:00:Thread#:Scheduler: testitem #6 from normal test queue 
+2019-12-11T17:25:30.8913869+03:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2019-12-11T17:25:30.8956724+03:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2019-12-11T17:25:30.8956802+03:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2019-12-11T17:25:30.8956820+03:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+2019-12-11T17:25:30.8957015+03:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2019-12-11T17:25:30.8973406+03:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2019-12-11T17:25:30.8986856+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-12-11T17:25:30.9042991+03:00:Thread #0: creating new test thread executor for SeleniumTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-12-11T17:25:30.9065447+03:00:Thread #0: Creating test assembly executor for execution model OutProc
+2019-12-11T17:25:30.9292641+03:00:Thread #0: Creating test assembly executor for execution model OutProc
+2019-12-11T17:25:30.9307238+03:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2019-12-11T17:25:30.9330117+03:00:starting Out Of Process Executor
+2019-12-11T17:25:30.9655623+03:00:Assembly resolving Microsoft.VisualStudio.Validation, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2019-12-11T17:25:30.9679659+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp2.1'
+2019-12-11T17:25:30.9682926+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.Validation.dll'
+2019-12-11T17:25:30.9683536+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.Validation.exe'
+2019-12-11T17:25:30.9683769+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp2.1'
+2019-12-11T17:25:30.9703518+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' from .deps.json file
+2019-12-11T17:25:30.9703610+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' from .deps.json
+2019-12-11T17:25:30.9809327+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.All\2.1.14'
+2019-12-11T17:25:30.9809413+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.All\2.1.14\Microsoft.VisualStudio.Validation.dll'
+2019-12-11T17:25:30.9809747+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.All\2.1.14\Microsoft.VisualStudio.Validation.exe'
+2019-12-11T17:25:30.9809961+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.All\2.1.14'
+2019-12-11T17:25:30.9811010+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\2.1.14'
+2019-12-11T17:25:30.9811045+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\2.1.14\Microsoft.VisualStudio.Validation.dll'
+2019-12-11T17:25:30.9811394+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\2.1.14\Microsoft.VisualStudio.Validation.exe'
+2019-12-11T17:25:30.9811604+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\2.1.14'
+2019-12-11T17:25:30.9812376+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.14'
+2019-12-11T17:25:30.9812414+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.14\Microsoft.VisualStudio.Validation.dll'
+2019-12-11T17:25:30.9812668+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.14\Microsoft.VisualStudio.Validation.exe'
+2019-12-11T17:25:30.9812859+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.14'
+2019-12-11T17:25:31.0094161+03:00:Starting callback TCP Rpc server
+2019-12-11T17:25:31.0342718+03:00:Asynchronously starting background TCP Rpc Server on port 32768
+2019-12-11T17:25:31.0343220+03:00:Started callback TCP Rpc server on port 32768
+2019-12-11T17:25:31.0343233+03:00:Starting logger TCP Rpc server
+2019-12-11T17:25:31.0364052+03:00:Asynchronously starting background TCP Rpc Server on port 32769
+2019-12-11T17:25:31.0364320+03:00:Started logger TCP Rpc server on port 32769
+2019-12-11T17:25:31.1690933+03:00;Thread#12;Info;Starting SpecFlow+ Runner executor process with attached debugger...
+2019-12-11T17:25:31.2476614+03:00;Thread#12;Info;Successfully started SpecFlow+ Runner executor process
+2019-12-11T17:25:31.2538126+03:00:Out of Process Executor 15548 started
+2019-12-11T17:25:31.2538347+03:00:Waiting for endpoint
+2019-12-11T17:25:32.0862717+03:00:Assembly resolving Microsoft.VisualStudio.Threading, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2019-12-11T17:25:32.0862942+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp2.1'
+2019-12-11T17:25:32.0862971+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.Threading.dll'
+2019-12-11T17:25:32.0863564+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.Threading.exe'
+2019-12-11T17:25:32.0863978+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp2.1'
+2019-12-11T17:25:32.0864053+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' from .deps.json file
+2019-12-11T17:25:32.0864098+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' from .deps.json
+2019-12-11T17:25:32.0868558+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.All\2.1.14'
+2019-12-11T17:25:32.0868602+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.All\2.1.14\Microsoft.VisualStudio.Threading.dll'
+2019-12-11T17:25:32.0868852+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.All\2.1.14\Microsoft.VisualStudio.Threading.exe'
+2019-12-11T17:25:32.0869177+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.All\2.1.14'
+2019-12-11T17:25:32.0870268+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\2.1.14'
+2019-12-11T17:25:32.0870309+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\2.1.14\Microsoft.VisualStudio.Threading.dll'
+2019-12-11T17:25:32.0870909+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\2.1.14\Microsoft.VisualStudio.Threading.exe'
+2019-12-11T17:25:32.0871255+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\2.1.14'
+2019-12-11T17:25:32.0872643+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.14'
+2019-12-11T17:25:32.0872678+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.14\Microsoft.VisualStudio.Threading.dll'
+2019-12-11T17:25:32.0873106+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.14\Microsoft.VisualStudio.Threading.exe'
+2019-12-11T17:25:32.0873468+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\2.1.14'
+2019-12-11T17:25:32.4830550+03:00:Remote executor port received: 32770
+2019-12-11T17:25:32.4841017+03:00:Creating executor TCP client on port 32770
+2019-12-11T17:25:32.4845927+03:00:Created executor TCP client on port 32770
+2019-12-11T17:25:32.4845974+03:00:Connecting to remote executor TCP server
+2019-12-11T17:25:32.4857309+03:00:Connected remote executor TCP server
+2019-12-11T17:25:32.4857710+03:00:trying to connect to Out of Process Executor the 1 attempt
+2019-12-11T17:25:32.4857885+03:00:Connection to Out of Process Executor established in the 1 attempt
+2019-12-11T17:25:32.6996347+03:00:2019-12-11T17:25:32.6982711+03:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp2.1\SeleniumTests.dll on test thread #0
+2019-12-11T17:25:32.7061111+03:00:Endpoint 15548 started
+2019-12-11T17:25:32.7363396+03:00:2019-12-11T17:25:32.7358083+03:00:OutOfProcessTestAssemblyExecutor: running tests...
+2019-12-11T17:25:32.8499651+03:00:Thread#0: Test #6/0 is started on thread #0
+2019-12-11T17:25:32.8701996+03:00:2019-12-11T17:25:32.8695961+03:00:Thread#0:T:2019-12-11T17:25:32.8673294+03:00:Assembly resolving TechTalk.SpecFlow, Version=3.0.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2019-12-11T17:25:32.8744928+03:00:2019-12-11T17:25:32.8740188+03:00:Thread#0:T:2019-12-11T17:25:32.8737024+03:00:[AssemblyCache] Trying to resolve 'TechTalk.SpecFlow' in folder 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp2.1'
+2019-12-11T17:25:32.8907519+03:00:2019-12-11T17:25:32.8901217+03:00:Thread#0:T:2019-12-11T17:25:32.8898778+03:00:[AssemblyCache] Trying to resolve 'TechTalk.SpecFlow' to 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp2.1\TechTalk.SpecFlow.dll'
+2019-12-11T17:25:32.8919749+03:00:2019-12-11T17:25:32.8916434+03:00:Thread#0:T:2019-12-11T17:25:32.8915689+03:00:[AssemblyCache] Trying to resolve 'TechTalk.SpecFlow' to 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp2.1\TechTalk.SpecFlow.exe'
+2019-12-11T17:25:32.8927823+03:00:2019-12-11T17:25:32.8925386+03:00:Thread#0:T:2019-12-11T17:25:32.8924675+03:00:[AssemblyCache] Could not resolve 'TechTalk.SpecFlow' in folder 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp2.1'
+2019-12-11T17:25:32.9002172+03:00:2019-12-11T17:25:32.8995628+03:00:Thread#0:T:2019-12-11T17:25:32.8991950+03:00:[AssemblyCache] Trying to resolve 'TechTalk.SpecFlow' from .deps.json file
+2019-12-11T17:25:32.9045100+03:00:2019-12-11T17:25:32.9035644+03:00:Thread#0:T:2019-12-11T17:25:32.9031809+03:00:[AssemblyCache] Resolved 'TechTalk.SpecFlow' to 'C:\Users\alexander.belyakov\.nuget\packages\specflow\3.0.225\lib\netstandard2.0\TechTalk.SpecFlow.dll'
+2019-12-11T17:25:33.0841150+03:00:2019-12-11T17:25:33.0834303+03:00:Thread#0:T:-> Loading plugin C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp2.1\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-12-11T17:25:33.1167077+03:00:2019-12-11T17:25:33.1161462+03:00:Thread#0:T:2019-12-11T17:25:33.1159038+03:00:Assembly resolving TechTalk.SpecFlow, Version=3.0.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2019-12-11T17:25:33.1216905+03:00:2019-12-11T17:25:33.1211901+03:00:Thread#0:T:-> Using default config
+2019-12-11T17:25:33.1324141+03:00:2019-12-11T17:25:33.1318687+03:00:Thread#0:T:2019-12-11T17:25:33.1316815+03:00:Assembly resolving Microsoft.VisualStudio.TestPlatform.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2019-12-11T17:25:33.1337643+03:00:2019-12-11T17:25:33.1334392+03:00:Thread#0:T:2019-12-11T17:25:33.1332294+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.ObjectModel' in folder 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp2.1'
+2019-12-11T17:25:33.1350270+03:00:2019-12-11T17:25:33.1342819+03:00:Thread#0:T:2019-12-11T17:25:33.1342136+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.ObjectModel' to 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll'
+2019-12-11T17:25:33.1359057+03:00:2019-12-11T17:25:33.1356586+03:00:Thread#0:T:2019-12-11T17:25:33.1355233+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.ObjectModel' to 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.ObjectModel.exe'
+2019-12-11T17:25:33.1367659+03:00:2019-12-11T17:25:33.1364814+03:00:Thread#0:T:2019-12-11T17:25:33.1364051+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.TestPlatform.ObjectModel' in folder 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp2.1'
+2019-12-11T17:25:33.1375780+03:00:2019-12-11T17:25:33.1373150+03:00:Thread#0:T:2019-12-11T17:25:33.1372432+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.ObjectModel' from .deps.json file
+2019-12-11T17:25:33.1385225+03:00:2019-12-11T17:25:33.1382664+03:00:Thread#0:T:2019-12-11T17:25:33.1381936+03:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.TestPlatform.ObjectModel' to 'C:\Users\alexander.belyakov\.nuget\packages\microsoft.testplatform.objectmodel\16.2.0\lib\netstandard1.5\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll'
+2019-12-11T17:25:33.2006468+03:00:2019-12-11T17:25:33.2000301+03:00:Thread#0:T:2019-12-11T17:25:33.1997973+03:00:Assembly resolving WebDriver, Version=3.141.0.0, Culture=neutral, PublicKeyToken=null
+2019-12-11T17:25:33.2015304+03:00:2019-12-11T17:25:33.2012474+03:00:Thread#0:T:2019-12-11T17:25:33.2011763+03:00:[AssemblyCache] Trying to resolve 'WebDriver' in folder 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp2.1'
+2019-12-11T17:25:33.2026524+03:00:2019-12-11T17:25:33.2023906+03:00:Thread#0:T:2019-12-11T17:25:33.2022330+03:00:[AssemblyCache] Trying to resolve 'WebDriver' to 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp2.1\WebDriver.dll'
+2019-12-11T17:25:33.2034389+03:00:2019-12-11T17:25:33.2031896+03:00:Thread#0:T:2019-12-11T17:25:33.2031213+03:00:[AssemblyCache] Trying to resolve 'WebDriver' to 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp2.1\WebDriver.exe'
+2019-12-11T17:25:33.2041909+03:00:2019-12-11T17:25:33.2039422+03:00:Thread#0:T:2019-12-11T17:25:33.2038634+03:00:[AssemblyCache] Could not resolve 'WebDriver' in folder 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp2.1'
+2019-12-11T17:25:33.2049110+03:00:2019-12-11T17:25:33.2046793+03:00:Thread#0:T:2019-12-11T17:25:33.2046122+03:00:[AssemblyCache] Trying to resolve 'WebDriver' from .deps.json file
+2019-12-11T17:25:33.2057298+03:00:2019-12-11T17:25:33.2054976+03:00:Thread#0:T:2019-12-11T17:25:33.2054228+03:00:[AssemblyCache] Resolved 'WebDriver' to 'C:\Users\alexander.belyakov\.nuget\packages\selenium.webdriver\3.141.0\lib\netstandard2.0\WebDriver.dll'
+2019-12-11T17:25:38.0111035+03:00:2019-12-11T17:25:38.0105478+03:00:Thread#0:B:Given I am on the 'About' page
+2019-12-11T17:25:38.0359187+03:00:2019-12-11T17:25:38.0353937+03:00:Thread#0:T:2019-12-11T17:25:38.0350860+03:00:Assembly resolving Gherkin, Version=6.0.0.0, Culture=neutral, PublicKeyToken=86496cfa5b4a5851
+2019-12-11T17:25:38.0404802+03:00:2019-12-11T17:25:38.0366157+03:00:Thread#0:T:2019-12-11T17:25:38.0365427+03:00:[AssemblyCache] Trying to resolve 'Gherkin' in folder 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp2.1'
+2019-12-11T17:25:38.0416452+03:00:2019-12-11T17:25:38.0413566+03:00:Thread#0:T:2019-12-11T17:25:38.0412823+03:00:[AssemblyCache] Trying to resolve 'Gherkin' to 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp2.1\Gherkin.dll'
+2019-12-11T17:25:38.0426385+03:00:2019-12-11T17:25:38.0423573+03:00:Thread#0:T:2019-12-11T17:25:38.0422808+03:00:[AssemblyCache] Trying to resolve 'Gherkin' to 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp2.1\Gherkin.exe'
+2019-12-11T17:25:38.0434600+03:00:2019-12-11T17:25:38.0432035+03:00:Thread#0:T:2019-12-11T17:25:38.0431217+03:00:[AssemblyCache] Could not resolve 'Gherkin' in folder 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp2.1'
+2019-12-11T17:25:38.0442312+03:00:2019-12-11T17:25:38.0439889+03:00:Thread#0:T:2019-12-11T17:25:38.0439188+03:00:[AssemblyCache] Trying to resolve 'Gherkin' from .deps.json file
+2019-12-11T17:25:38.0451312+03:00:2019-12-11T17:25:38.0448801+03:00:Thread#0:T:2019-12-11T17:25:38.0448042+03:00:[AssemblyCache] Resolved 'Gherkin' to 'C:\Users\alexander.belyakov\.nuget\packages\gherkin\6.0.0\lib\netstandard2.0\Gherkin.dll'
+2019-12-11T17:25:38.0854970+03:00:2019-12-11T17:25:38.0848188+03:00:Thread#0:T:2019-12-11T17:25:38.0845159+03:00:Assembly resolving Utf8Json, Version=1.3.7.0, Culture=neutral, PublicKeyToken=8a73d3ba7e392e27
+2019-12-11T17:25:38.0865601+03:00:2019-12-11T17:25:38.0862362+03:00:Thread#0:T:2019-12-11T17:25:38.0861506+03:00:[AssemblyCache] Trying to resolve 'Utf8Json' in folder 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp2.1'
+2019-12-11T17:25:38.0875940+03:00:2019-12-11T17:25:38.0872131+03:00:Thread#0:T:2019-12-11T17:25:38.0871096+03:00:[AssemblyCache] Trying to resolve 'Utf8Json' to 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp2.1\Utf8Json.dll'
+2019-12-11T17:25:38.0893077+03:00:2019-12-11T17:25:38.0885095+03:00:Thread#0:T:2019-12-11T17:25:38.0883894+03:00:[AssemblyCache] Trying to resolve 'Utf8Json' to 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp2.1\Utf8Json.exe'
+2019-12-11T17:25:38.0961412+03:00:2019-12-11T17:25:38.0925556+03:00:Thread#0:T:2019-12-11T17:25:38.0924697+03:00:[AssemblyCache] Could not resolve 'Utf8Json' in folder 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp2.1'
+2019-12-11T17:25:38.0973206+03:00:2019-12-11T17:25:38.0969168+03:00:Thread#0:T:2019-12-11T17:25:38.0968257+03:00:[AssemblyCache] Trying to resolve 'Utf8Json' from .deps.json file
+2019-12-11T17:25:38.0987589+03:00:2019-12-11T17:25:38.0982879+03:00:Thread#0:T:2019-12-11T17:25:38.0981143+03:00:[AssemblyCache] Resolved 'Utf8Json' to 'C:\Users\alexander.belyakov\.nuget\packages\utf8json\1.3.7\lib\netstandard2.0\Utf8Json.dll'
+2019-12-11T17:25:38.3859776+03:00:2019-12-11T17:25:38.3854067+03:00:Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+2019-12-11T17:25:38.3869752+03:00:2019-12-11T17:25:38.3865652+03:00:Thread#0:T:        [Given(@"I am on the '(.*)' page")]
+2019-12-11T17:25:38.3878337+03:00:2019-12-11T17:25:38.3875885+03:00:Thread#0:T:        public void GivenIAmOnThePage(string about)
+2019-12-11T17:25:38.3884661+03:00:2019-12-11T17:25:38.3882235+03:00:Thread#0:T:        {
+2019-12-11T17:25:38.3890973+03:00:2019-12-11T17:25:38.3888490+03:00:Thread#0:T:            ScenarioContext.Current.Pending();
+2019-12-11T17:25:38.3897230+03:00:2019-12-11T17:25:38.3894750+03:00:Thread#0:T:        }
+2019-12-11T17:25:38.3916036+03:00:2019-12-11T17:25:38.3913420+03:00:Thread#0:B:When I click 'Home' page link
+2019-12-11T17:25:38.3947457+03:00:2019-12-11T17:25:38.3944268+03:00:Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+2019-12-11T17:25:38.3954688+03:00:2019-12-11T17:25:38.3952155+03:00:Thread#0:T:        [When(@"I click '(.*)' page link")]
+2019-12-11T17:25:38.3960547+03:00:2019-12-11T17:25:38.3958145+03:00:Thread#0:T:        public void WhenIClickPageLink(string home)
+2019-12-11T17:25:38.3966420+03:00:2019-12-11T17:25:38.3963672+03:00:Thread#0:T:        {
+2019-12-11T17:25:38.3972685+03:00:2019-12-11T17:25:38.3970368+03:00:Thread#0:T:            ScenarioContext.Current.Pending();
+2019-12-11T17:25:38.3978360+03:00:2019-12-11T17:25:38.3975783+03:00:Thread#0:T:        }
+2019-12-11T17:25:38.3990676+03:00:2019-12-11T17:25:38.3987140+03:00:Thread#0:B:Then 'Home' page should be open
+2019-12-11T17:25:38.4010564+03:00:2019-12-11T17:25:38.4007809+03:00:Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+2019-12-11T17:25:38.4016479+03:00:2019-12-11T17:25:38.4013689+03:00:Thread#0:T:        [Then(@"'(.*)' page should be open")]
+2019-12-11T17:25:38.4022045+03:00:2019-12-11T17:25:38.4019658+03:00:Thread#0:T:        public void ThenPageShouldBeOpen(string home0)
+2019-12-11T17:25:38.4028111+03:00:2019-12-11T17:25:38.4025916+03:00:Thread#0:T:        {
+2019-12-11T17:25:38.4033596+03:00:2019-12-11T17:25:38.4030964+03:00:Thread#0:T:            ScenarioContext.Current.Pending();
+2019-12-11T17:25:38.4039867+03:00:2019-12-11T17:25:38.4037519+03:00:Thread#0:T:        }
+2019-12-11T17:25:46.7353841+03:00:2019-12-11T17:25:46.7348790+03:00:Thread#0:T:Pending: No matching step definition found for one or more steps.
+2019-12-11T17:25:46.7363425+03:00:2019-12-11T17:25:46.7359522+03:00:Thread#0:T:using System;
+2019-12-11T17:25:46.7373650+03:00:2019-12-11T17:25:46.7369015+03:00:Thread#0:T:using TechTalk.SpecFlow;
+2019-12-11T17:25:46.7383355+03:00:2019-12-11T17:25:46.7379346+03:00:Thread#0:T:namespace MyNamespace
+2019-12-11T17:25:46.7392457+03:00:2019-12-11T17:25:46.7388443+03:00:Thread#0:T:{
+2019-12-11T17:25:46.7410095+03:00:2019-12-11T17:25:46.7399708+03:00:Thread#0:T:    [Binding]
+2019-12-11T17:25:46.7426273+03:00:2019-12-11T17:25:46.7421450+03:00:Thread#0:T:    public class StepDefinitions
+2019-12-11T17:25:46.7436440+03:00:2019-12-11T17:25:46.7432570+03:00:Thread#0:T:    {
+2019-12-11T17:25:46.7447022+03:00:2019-12-11T17:25:46.7441805+03:00:Thread#0:T:        [Given(@"I am on the '(.*)' page")]
+2019-12-11T17:25:46.7456596+03:00:2019-12-11T17:25:46.7452662+03:00:Thread#0:T:        public void GivenIAmOnThePage(string about0)
+2019-12-11T17:25:46.7464213+03:00:2019-12-11T17:25:46.7460878+03:00:Thread#0:T:        {
+2019-12-11T17:25:46.7472603+03:00:2019-12-11T17:25:46.7469261+03:00:Thread#0:T:            ScenarioContext.Current.Pending();
+2019-12-11T17:25:46.7482643+03:00:2019-12-11T17:25:46.7478644+03:00:Thread#0:T:        }
+2019-12-11T17:25:46.7490892+03:00:2019-12-11T17:25:46.7487235+03:00:Thread#0:T:        
+2019-12-11T17:25:46.7499055+03:00:2019-12-11T17:25:46.7495857+03:00:Thread#0:T:        [When(@"I click '(.*)' page link")]
+2019-12-11T17:25:46.7506433+03:00:2019-12-11T17:25:46.7503502+03:00:Thread#0:T:        public void WhenIClickPageLink(string home0)
+2019-12-11T17:25:46.7514180+03:00:2019-12-11T17:25:46.7511013+03:00:Thread#0:T:        {
+2019-12-11T17:25:46.7521900+03:00:2019-12-11T17:25:46.7518773+03:00:Thread#0:T:            ScenarioContext.Current.Pending();
+2019-12-11T17:25:46.7529439+03:00:2019-12-11T17:25:46.7526025+03:00:Thread#0:T:        }
+2019-12-11T17:25:46.7537198+03:00:2019-12-11T17:25:46.7533773+03:00:Thread#0:T:        
+2019-12-11T17:25:46.7544828+03:00:2019-12-11T17:25:46.7541273+03:00:Thread#0:T:        [Then(@"'(.*)' page should be open")]
+2019-12-11T17:25:46.7552667+03:00:2019-12-11T17:25:46.7549326+03:00:Thread#0:T:        public void ThenPageShouldBeOpen(string home0)
+2019-12-11T17:25:46.7563218+03:00:2019-12-11T17:25:46.7558163+03:00:Thread#0:T:        {
+2019-12-11T17:25:46.7576336+03:00:2019-12-11T17:25:46.7569499+03:00:Thread#0:T:            ScenarioContext.Current.Pending();
+2019-12-11T17:25:46.7585557+03:00:2019-12-11T17:25:46.7581931+03:00:Thread#0:T:        }
+2019-12-11T17:25:46.7593253+03:00:2019-12-11T17:25:46.7590102+03:00:Thread#0:T:    }
+2019-12-11T17:25:46.7601287+03:00:2019-12-11T17:25:46.7598180+03:00:Thread#0:T:}
+2019-12-11T17:25:46.7711550+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-12-11T17:25:46.7711859+03:00:Thread#:Scheduler: testitem #7 from normal test queue 
+2019-12-11T17:25:46.7711940+03:00:Thread#0:Scheduler: considering testitem #7 for thread 0
+2019-12-11T17:25:46.7712316+03:00:Thread#0:TestItem#7:testItemMatchesCurrentTestThread:UnSpecific
+2019-12-11T17:25:46.7712343+03:00:Thread#0:TestItem#7:runsOnOneOtherThreadSpecific:False
+2019-12-11T17:25:46.7712362+03:00:Thread#0:TestItem#7:runsOnOneOtherThreadUnspecific:False
+2019-12-11T17:25:46.7712383+03:00:Thread#0:Scheduler: using testitem #7 for thread 0
+2019-12-11T17:25:46.7712508+03:00:Thread#0:Scheduler: Test #7 is scheduled for thread
+2019-12-11T17:25:46.7712582+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-12-11T17:25:47.0138976+03:00:Thread#0: Test #6/0 is finished on thread #0 as Pending within 14.1632013 seconds
+2019-12-11T17:25:47.0183669+03:00:Thread#0: Test #7/0 is started on thread #0
+2019-12-11T17:25:52.1768952+03:00:2019-12-11T17:25:52.1763593+03:00:Thread#0:B:Given I am on the 'Home' page
+2019-12-11T17:25:52.1796560+03:00:2019-12-11T17:25:52.1791992+03:00:Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+2019-12-11T17:25:52.1804828+03:00:2019-12-11T17:25:52.1801430+03:00:Thread#0:T:        [Given(@"I am on the '(.*)' page")]
+2019-12-11T17:25:52.1811873+03:00:2019-12-11T17:25:52.1809174+03:00:Thread#0:T:        public void GivenIAmOnThePage(string home0)
+2019-12-11T17:25:52.1817761+03:00:2019-12-11T17:25:52.1814920+03:00:Thread#0:T:        {
+2019-12-11T17:25:52.1823690+03:00:2019-12-11T17:25:52.1821288+03:00:Thread#0:T:            ScenarioContext.Current.Pending();
+2019-12-11T17:25:52.1829532+03:00:2019-12-11T17:25:52.1827290+03:00:Thread#0:T:        }
+2019-12-11T17:25:52.1836729+03:00:2019-12-11T17:25:52.1834414+03:00:Thread#0:B:When I click 'About' page link
+2019-12-11T17:25:52.1855208+03:00:2019-12-11T17:25:52.1852619+03:00:Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+2019-12-11T17:25:52.1860988+03:00:2019-12-11T17:25:52.1858165+03:00:Thread#0:T:        [When(@"I click '(.*)' page link")]
+2019-12-11T17:25:52.1866636+03:00:2019-12-11T17:25:52.1863910+03:00:Thread#0:T:        public void WhenIClickPageLink(string about0)
+2019-12-11T17:25:52.1872916+03:00:2019-12-11T17:25:52.1870356+03:00:Thread#0:T:        {
+2019-12-11T17:25:52.1878921+03:00:2019-12-11T17:25:52.1876651+03:00:Thread#0:T:            ScenarioContext.Current.Pending();
+2019-12-11T17:25:52.1885005+03:00:2019-12-11T17:25:52.1882633+03:00:Thread#0:T:        }
+2019-12-11T17:25:52.1892021+03:00:2019-12-11T17:25:52.1889528+03:00:Thread#0:B:Then 'About' page should be open
+2019-12-11T17:25:52.1910772+03:00:2019-12-11T17:25:52.1908338+03:00:Thread#0:T:No matching step definition found for the step. Use the following code to create one:
+2019-12-11T17:25:52.1916556+03:00:2019-12-11T17:25:52.1914223+03:00:Thread#0:T:        [Then(@"'(.*)' page should be open")]
+2019-12-11T17:25:52.1922606+03:00:2019-12-11T17:25:52.1920297+03:00:Thread#0:T:        public void ThenPageShouldBeOpen(string about0)
+2019-12-11T17:25:52.1928499+03:00:2019-12-11T17:25:52.1926125+03:00:Thread#0:T:        {
+2019-12-11T17:25:52.1935057+03:00:2019-12-11T17:25:52.1932374+03:00:Thread#0:T:            ScenarioContext.Current.Pending();
+2019-12-11T17:25:52.1941348+03:00:2019-12-11T17:25:52.1938853+03:00:Thread#0:T:        }

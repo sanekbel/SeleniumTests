@@ -1,0 +1,174 @@
+﻿2019-12-11T14:50:36.9028670+03:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-12-11T14:50:36.9030263+03:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.1.33 in Framework netcore30 in x64 mode execution started
+2019-12-11T14:50:36.9030354+03:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp3.0\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-12-11T14:50:36.9317615+03:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp3.0\SeleniumTests.dll
+2019-12-11T14:50:36.9319905+03:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\TestResults" (default)
+2019-12-11T14:50:36.9320726+03:00;VSTestExecutionThread;Info;Profile: 
+2019-12-11T14:50:36.9710273+03:00;VSTestExecutionThread;Info;Log file path: C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\TestResults\Unnamed project__2019-12-11T145036.log
+2019-12-11T14:50:36.9767219+03:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-12-11T14:50:36.9825028+03:00;Thread#12;Info;Checking license
+2019-12-11T14:50:36.9959873+03:00;Thread#12;Info;Evaluation mode: test execution starts in 13 seconds... (this delay is removed in the registered version)
+2019-12-11T14:50:49.9967470+03:00;Thread#12;Info;Evaluation delay finished.
+2019-12-11T14:50:50.0025966+03:00;Thread#12;Info;License check completed
+2019-12-11T14:50:50.0030500+03:00;Thread#12;Info;starting test run
+2019-12-11T14:50:50.0093470+03:00;Thread#12;Info;Discovering target: Default
+2019-12-11T14:50:50.0094979+03:00;Thread#12;Info;Discovering tests from assembly: C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp3.0\SeleniumTests.dll
+2019-12-11T14:50:50.1024056+03:00;Thread#12;Info;Discovered tests from assembly: C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp3.0\SeleniumTests.dll
+2019-12-11T14:50:50.1034845+03:00:Test Suite Dump
+2019-12-11T14:50:50.1048708+03:00:#0: Unnamed project/ - 
+2019-12-11T14:50:50.1048809+03:00:#1: Default - 
+2019-12-11T14:50:50.1048823+03:00:#2: SeleniumTests - 
+2019-12-11T14:50:50.1048834+03:00:#3: HelloWorld - 
+2019-12-11T14:50:50.1059602+03:00:#4: Check if I awesome - TestAssembly:SeleniumTests/Feature:HelloWorld/Scenario:Check+if+I+awesome
+2019-12-11T14:50:50.1060047+03:00:End: Test Suite Dump
+2019-12-11T14:50:50.1202141+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-12-11T14:50:50.1217884+03:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2019-12-11T14:50:50.1218444+03:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-12-11T14:50:50.1248421+03:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-12-11T14:50:50.1248504+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-12-11T14:50:50.1248519+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-12-11T14:50:50.1248534+03:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-12-11T14:50:50.1253856+03:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-12-11T14:50:50.1266699+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-12-11T14:50:50.1285768+03:00:Thread #0: creating new test thread executor for SeleniumTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-12-11T14:50:50.1310190+03:00:Thread #0: Creating test assembly executor for execution model OutProc
+2019-12-11T14:50:50.1312009+03:00:Thread #0: Creating test assembly executor for execution model OutProc
+2019-12-11T14:50:50.1339257+03:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2019-12-11T14:50:50.1355841+03:00:starting Out Of Process Executor
+2019-12-11T14:50:50.1373481+03:00:Assembly resolving Microsoft.VisualStudio.Validation, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2019-12-11T14:50:50.1395721+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp3.0'
+2019-12-11T14:50:50.1398285+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Validation.dll'
+2019-12-11T14:50:50.1398870+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Validation.exe'
+2019-12-11T14:50:50.1399129+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp3.0'
+2019-12-11T14:50:50.1405049+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' from .deps.json file
+2019-12-11T14:50:50.1405116+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' from .deps.json
+2019-12-11T14:50:50.1455601+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.0.0'
+2019-12-11T14:50:50.1455719+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.0.0\Microsoft.VisualStudio.Validation.dll'
+2019-12-11T14:50:50.1456087+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.0.0\Microsoft.VisualStudio.Validation.exe'
+2019-12-11T14:50:50.1456314+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.0.0'
+2019-12-11T14:50:50.1457243+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.0.0'
+2019-12-11T14:50:50.1457286+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.0.0\Microsoft.VisualStudio.Validation.dll'
+2019-12-11T14:50:50.1457565+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.0.0\Microsoft.VisualStudio.Validation.exe'
+2019-12-11T14:50:50.1457952+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.0.0'
+2019-12-11T14:50:50.1458804+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.0.0'
+2019-12-11T14:50:50.1458855+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.0.0\Microsoft.VisualStudio.Validation.dll'
+2019-12-11T14:50:50.1459117+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.0.0\Microsoft.VisualStudio.Validation.exe'
+2019-12-11T14:50:50.1459323+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.0.0'
+2019-12-11T14:50:50.1497667+03:00:Starting callback TCP Rpc server
+2019-12-11T14:50:50.1748008+03:00:Asynchronously starting background TCP Rpc Server on port 32768
+2019-12-11T14:50:50.1748532+03:00:Started callback TCP Rpc server on port 32768
+2019-12-11T14:50:50.1748551+03:00:Starting logger TCP Rpc server
+2019-12-11T14:50:50.1768286+03:00:Asynchronously starting background TCP Rpc Server on port 32769
+2019-12-11T14:50:50.1768637+03:00:Started logger TCP Rpc server on port 32769
+2019-12-11T14:50:50.2604947+03:00:Executing test executor at 'C:\Program Files\dotnet\dotnet.exe' 'exec "C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp3.0\SpecFlowPlusRunner\netcoreapp3.0\TechTalk.SpecRun.Framework.Executor.anycpu.netcoreapp3_0.dll" --remoteRunnerPid 18400 --uniqueId "2019-12-11T145036" --outputFolder "C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\TestResults" --callbackPort 32768 --loggerPort 32769' in 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp3.0'
+2019-12-11T14:50:50.2678046+03:00:Executor with PID 16952 has been started successfully.
+2019-12-11T14:50:50.2710592+03:00:Out of Process Executor 16952 started
+2019-12-11T14:50:50.2710710+03:00:Waiting for endpoint
+2019-12-11T14:50:50.5505752+03:00:Assembly resolving Microsoft.VisualStudio.Threading, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2019-12-11T14:50:50.5506366+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp3.0'
+2019-12-11T14:50:50.5506396+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Threading.dll'
+2019-12-11T14:50:50.5506802+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Threading.exe'
+2019-12-11T14:50:50.5507010+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp3.0'
+2019-12-11T14:50:50.5507061+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' from .deps.json file
+2019-12-11T14:50:50.5507077+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' from .deps.json
+2019-12-11T14:50:50.5512675+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.0.0'
+2019-12-11T14:50:50.5512732+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.0.0\Microsoft.VisualStudio.Threading.dll'
+2019-12-11T14:50:50.5513003+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.0.0\Microsoft.VisualStudio.Threading.exe'
+2019-12-11T14:50:50.5513214+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.0.0'
+2019-12-11T14:50:50.5514052+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.0.0'
+2019-12-11T14:50:50.5514100+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.0.0\Microsoft.VisualStudio.Threading.dll'
+2019-12-11T14:50:50.5514521+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.0.0\Microsoft.VisualStudio.Threading.exe'
+2019-12-11T14:50:50.5514879+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.0.0'
+2019-12-11T14:50:50.5516219+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.0.0'
+2019-12-11T14:50:50.5516292+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.0.0\Microsoft.VisualStudio.Threading.dll'
+2019-12-11T14:50:50.5516715+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.0.0\Microsoft.VisualStudio.Threading.exe'
+2019-12-11T14:50:50.5517064+03:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.0.0'
+2019-12-11T14:50:50.7411644+03:00:Remote executor port received: 32770
+2019-12-11T14:50:50.7414645+03:00:Creating executor TCP client on port 32770
+2019-12-11T14:50:50.7418113+03:00:Created executor TCP client on port 32770
+2019-12-11T14:50:50.7418155+03:00:Connecting to remote executor TCP server
+2019-12-11T14:50:50.7425460+03:00:Connected remote executor TCP server
+2019-12-11T14:50:50.7426701+03:00:trying to connect to Out of Process Executor the 1 attempt
+2019-12-11T14:50:50.7426771+03:00:Connection to Out of Process Executor established in the 1 attempt
+2019-12-11T14:50:50.8527571+03:00:2019-12-11T14:50:50.8517393+03:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp3.0\SeleniumTests.dll on test thread #0
+2019-12-11T14:50:50.8567590+03:00:Endpoint 16952 started
+2019-12-11T14:50:50.8717856+03:00:2019-12-11T14:50:50.8714350+03:00:OutOfProcessTestAssemblyExecutor: running tests...
+2019-12-11T14:50:50.9709143+03:00:Thread#0: Test #4/0 is started on thread #0
+2019-12-11T14:50:50.9782328+03:00:2019-12-11T14:50:50.9778576+03:00:Thread#0:T:2019-12-11T14:50:50.9767550+03:00:Assembly resolving TechTalk.SpecFlow, Version=3.0.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2019-12-11T14:50:50.9811562+03:00:2019-12-11T14:50:50.9807280+03:00:Thread#0:T:2019-12-11T14:50:50.9805378+03:00:[AssemblyCache] Trying to resolve 'TechTalk.SpecFlow' in folder 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp3.0'
+2019-12-11T14:50:50.9881448+03:00:2019-12-11T14:50:50.9877494+03:00:Thread#0:T:2019-12-11T14:50:50.9875682+03:00:[AssemblyCache] Trying to resolve 'TechTalk.SpecFlow' to 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp3.0\TechTalk.SpecFlow.dll'
+2019-12-11T14:50:50.9889987+03:00:2019-12-11T14:50:50.9887510+03:00:Thread#0:T:2019-12-11T14:50:50.9885679+03:00:[AssemblyCache] Found file 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp3.0\TechTalk.SpecFlow.dll' for assembly 'TechTalk.SpecFlow'
+2019-12-11T14:50:50.9908617+03:00:2019-12-11T14:50:50.9906258+03:00:Thread#0:T:2019-12-11T14:50:50.9904492+03:00:[AssemblyCache] Resolved 'TechTalk.SpecFlow' to C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp3.0\TechTalk.SpecFlow.dll
+2019-12-11T14:50:51.0831184+03:00:2019-12-11T14:50:51.0827733+03:00:Thread#0:T:-> Loading plugin C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp3.0\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-12-11T14:50:51.0855993+03:00:2019-12-11T14:50:51.0846358+03:00:Thread#0:T:2019-12-11T14:50:51.0844356+03:00:Assembly resolving TechTalk.SpecFlow, Version=3.0.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2019-12-11T14:50:51.0904186+03:00:2019-12-11T14:50:51.0896939+03:00:Thread#0:T:-> Using default config
+2019-12-11T14:50:51.0986223+03:00:2019-12-11T14:50:51.0978065+03:00:Thread#0:T:2019-12-11T14:50:51.0975876+03:00:Assembly resolving Microsoft.VisualStudio.TestPlatform.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2019-12-11T14:50:51.1000790+03:00:2019-12-11T14:50:51.0994947+03:00:Thread#0:T:2019-12-11T14:50:51.0993080+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.ObjectModel' in folder 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp3.0'
+2019-12-11T14:50:51.1013631+03:00:2019-12-11T14:50:51.1008864+03:00:Thread#0:T:2019-12-11T14:50:51.1007013+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.ObjectModel' to 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll'
+2019-12-11T14:50:51.1020901+03:00:2019-12-11T14:50:51.1019202+03:00:Thread#0:T:2019-12-11T14:50:51.1017613+03:00:[AssemblyCache] Found file 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll' for assembly 'Microsoft.VisualStudio.TestPlatform.ObjectModel'
+2019-12-11T14:50:51.1033549+03:00:2019-12-11T14:50:51.1031632+03:00:Thread#0:T:2019-12-11T14:50:51.1030397+03:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.TestPlatform.ObjectModel' to C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+2019-12-11T14:50:51.1047780+03:00:2019-12-11T14:50:51.1046358+03:00:Thread#0:T:2019-12-11T14:50:51.1045851+03:00:Assembly resolving Microsoft.VisualStudio.TestPlatform.TestFramework, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2019-12-11T14:50:51.1051163+03:00:2019-12-11T14:50:51.1049929+03:00:Thread#0:T:2019-12-11T14:50:51.1049480+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.TestFramework' in folder 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp3.0'
+2019-12-11T14:50:51.1057928+03:00:2019-12-11T14:50:51.1053191+03:00:Thread#0:T:2019-12-11T14:50:51.1052728+03:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.TestFramework' to 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.TestPlatform.TestFramework.dll'
+2019-12-11T14:50:51.1066953+03:00:2019-12-11T14:50:51.1064935+03:00:Thread#0:T:2019-12-11T14:50:51.1064459+03:00:[AssemblyCache] Found file 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.TestPlatform.TestFramework.dll' for assembly 'Microsoft.VisualStudio.TestPlatform.TestFramework'
+2019-12-11T14:50:51.1076691+03:00:2019-12-11T14:50:51.1075286+03:00:Thread#0:T:2019-12-11T14:50:51.1074797+03:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.TestPlatform.TestFramework' to C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+2019-12-11T14:50:51.1185181+03:00:2019-12-11T14:50:51.1182228+03:00:Thread#0:T:-> error: Value cannot be null. (Parameter 'key')
+2019-12-11T14:50:51.1421876+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-12-11T14:50:51.1422202+03:00:Thread#:Scheduler: at the end of normal test queue
+2019-12-11T14:50:51.1422222+03:00:Thread#0:Scheduler: enumerator for thread is at end
+2019-12-11T14:50:51.1422242+03:00:Thread#0:Scheduler: No more tests for thread
+2019-12-11T14:50:51.1443090+03:00:2019-12-11T14:50:51.1440644+03:00:Thread#0:T:-> error: Value cannot be null. (Parameter 'key')
+2019-12-11T14:50:51.1726794+03:00:Thread#0: Test #4/0 is finished on thread #0 as InitializationFailed within 0.2008728 seconds
+2019-12-11T14:50:51.1801115+03:00:2019-12-11T14:50:51.1798530+03:00:Got Deinitialize Signal
+2019-12-11T14:50:51.1831930+03:00:RPC Client disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Stream has been disposed
+Exception:<none>
+2019-12-11T14:50:51.1846307+03:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2019-12-11T14:50:51.1857036+03:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Stream has been disposed
+Exception:<none>
+2019-12-11T14:50:51.1868816+03:00:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.1.0, Culture=en-US, PublicKeyToken=b03f5f7f11d50a3a
+2019-12-11T14:50:51.1869030+03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp3.0'
+2019-12-11T14:50:51.1869050+03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp3.0\System.Diagnostics.Process.resources.dll'
+2019-12-11T14:50:51.1869308+03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp3.0\System.Diagnostics.Process.resources.exe'
+2019-12-11T14:50:51.1869516+03:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\alexander.belyakov\Documents\GIT\SeleniumTests\bin\Debug\netcoreapp3.0'
+2019-12-11T14:50:51.1869557+03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' from .deps.json file
+2019-12-11T14:50:51.1869596+03:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' from .deps.json
+2019-12-11T14:50:51.1874770+03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.0.0'
+2019-12-11T14:50:51.1874825+03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.0.0\System.Diagnostics.Process.resources.dll'
+2019-12-11T14:50:51.1875107+03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.0.0\System.Diagnostics.Process.resources.exe'
+2019-12-11T14:50:51.1875311+03:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.0.0'
+2019-12-11T14:50:51.1876138+03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.0.0'
+2019-12-11T14:50:51.1876179+03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.0.0\System.Diagnostics.Process.resources.dll'
+2019-12-11T14:50:51.1876423+03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.0.0\System.Diagnostics.Process.resources.exe'
+2019-12-11T14:50:51.1876628+03:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.0.0'
+2019-12-11T14:50:51.1877355+03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.0.0'
+2019-12-11T14:50:51.1877430+03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.0.0\System.Diagnostics.Process.resources.dll'
+2019-12-11T14:50:51.1877704+03:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.0.0\System.Diagnostics.Process.resources.exe'
+2019-12-11T14:50:51.1877982+03:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.0.0'
+2019-12-11T14:50:51.1882674+03:00:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.1.0, Culture=en, PublicKeyToken=b03f5f7f11d50a3a
+2019-12-11T14:50:51.1948347+03:00:Thread#-1:Scheduler: get next test for thread -1
+2019-12-11T14:50:51.1948609+03:00:Thread#:Scheduler: at the end of normal test queue
+2019-12-11T14:50:51.1948643+03:00:Thread#-1:Scheduler: enumerator for thread is at end
+2019-12-11T14:50:51.1964181+03:00;Thread#12;Info;test run finished
+2019-12-11T14:50:51.1966178+03:00;Thread#12;Info;publishing test results
+2019-12-11T14:50:51.1968100+03:00;Thread#12;Info;Not publishing results.
+2019-12-11T14:50:51.1968964+03:00;Thread#12;Info;test results published
+2019-12-11T14:50:51.1969492+03:00;Thread#12;Info;generating reports
+2019-12-11T14:50:51.2667295+03:00;Thread#12;Info;Starting external report generation process
+2019-12-11T14:50:51.9402342+03:00;Thread#12;Error;Could not generate test run result reports. An error occurred in the generator.
+2019-12-11T14:50:51.9408794+03:00;Thread#12;Error;External program returned exit code '-1'
+2019-12-11T14:50:51.9410629+03:00;Thread#12;Info;Failed generating reports
+2019-12-11T14:50:51.9489616+03:00:Total: 1
+2019-12-11T14:50:51.9504543+03:00:Succeeded: 0
+2019-12-11T14:50:51.9507009+03:00:Ignored: 0
+2019-12-11T14:50:51.9509409+03:00:Pending: 0
+2019-12-11T14:50:51.9509469+03:00:Skipped: 0
+2019-12-11T14:50:51.9511809+03:00:Failed: 1
+2019-12-11T14:50:51.9565702+03:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+========== End of log file ==========

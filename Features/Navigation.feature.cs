@@ -17,8 +17,8 @@ namespace SeleniumTests.Features
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.0.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [TechTalk.SpecRun.FeatureAttribute("Navigation", Description="\tIn order to interact with website\r\n\tAs User\r\n\tI would like to use nav menu", SourceFile="Features\\Navigation.feature", SourceLine=0)]
-    public partial class NavigationFeature
+    [TechTalk.SpecRun.FeatureAttribute("Header navigation", Description="\tIn order to interact with website\r\n\tAs User\r\n\tI would like to use nav menu", SourceFile="Features\\Navigation.feature", SourceLine=0)]
+    public partial class HeaderNavigationFeature
     {
         
         private TechTalk.SpecFlow.ITestRunner testRunner;
@@ -30,7 +30,7 @@ namespace SeleniumTests.Features
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Navigation", "\tIn order to interact with website\r\n\tAs User\r\n\tI would like to use nav menu", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Header navigation", "\tIn order to interact with website\r\n\tAs User\r\n\tI would like to use nav menu", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -81,7 +81,7 @@ this.ScenarioInitialize(scenarioInfo);
 #line 8
  testRunner.Given(string.Format("I am on the \'{0}\' page", pageName), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 9
- testRunner.When(string.Format("I click \'{0}\' page link", pageLink), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When(string.Format("I click \'{0}\' page link on header", pageLink), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 10
  testRunner.Then(string.Format("\'{0}\' page should be open", page), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
@@ -93,7 +93,7 @@ this.ScenarioInitialize(scenarioInfo);
         public virtual void IndexPageLink_Variant0()
         {
 #line 7
-this.IndexPageLink("About", "Home", "Home", ((string[])(null)));
+this.IndexPageLink("About", "Index", "Index", ((string[])(null)));
 #line hidden
         }
         
@@ -102,7 +102,7 @@ this.IndexPageLink("About", "Home", "Home", ((string[])(null)));
         public virtual void IndexPageLink_Variant1()
         {
 #line 7
-this.IndexPageLink("Home", "About", "About", ((string[])(null)));
+this.IndexPageLink("Index", "About", "About", ((string[])(null)));
 #line hidden
         }
         
@@ -111,7 +111,16 @@ this.IndexPageLink("Home", "About", "About", ((string[])(null)));
         public virtual void IndexPageLink_Variant2()
         {
 #line 7
-this.IndexPageLink("Home", "Messages", "Messages", ((string[])(null)));
+this.IndexPageLink("Index", "ListMessages", "ListMessages", ((string[])(null)));
+#line hidden
+        }
+        
+        [TechTalk.SpecRun.ScenarioAttribute("Index page link, Variant 3", new string[] {
+                "nav"}, SourceLine=13)]
+        public virtual void IndexPageLink_Variant3()
+        {
+#line 7
+this.IndexPageLink("Index", "ListUsers", "ListUsers", ((string[])(null)));
 #line hidden
         }
         

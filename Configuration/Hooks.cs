@@ -1,6 +1,7 @@
 ﻿using BoDi;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using SeleniumTests.Pages;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -35,6 +36,15 @@ namespace SeleniumTests.Configuration
         public void AfterScenario()
         {
             _driver.Quit();
+        }
+
+        [StepArgumentTransformation]        
+        public BasePage Transform(string pageName)
+        {
+            if (pageName == "About") { return new AboutPage(_driver); }
+            else if (pageName == "Index") { return new IndexPage(_driver); }
+            else if (pageName == "ListUsers") { return new ListUsersPage(_driver); }
+            else { return new ListMessagesPage(_driver); }
         }
     }
 }

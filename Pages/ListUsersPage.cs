@@ -1,18 +1,17 @@
 ﻿using OpenQA.Selenium;
-using SeleniumTests.Pages.Elements;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace SeleniumTests.Pages
 {
-    class AboutPage : BasePage
-    {        
-        public AboutPage(IWebDriver driver)
+    class ListUsersPage : BasePage
+    {
+        public ListUsersPage(IWebDriver driver)
         {
             _driver = driver;
-            _title = "About";
-            _uri = "/Home/About";
+            _title = "List of Users";
+            _uri = "/User/ListUsers";
             Configure();
         }
     }

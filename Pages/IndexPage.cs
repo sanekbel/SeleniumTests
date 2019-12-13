@@ -7,14 +7,19 @@ using System.Text;
 
 namespace SeleniumTests.Pages
 {
-    class HomePage : BasePage
+    public class IndexPage : BasePage
     {        
-        public HomePage(IWebDriver driver)
+        public IndexPage(IWebDriver driver)
         {
             _driver = driver;
             _title = "Index";
             _uri = "/";
             Configure();
+        }
+        public void CreateAMessage()
+        {
+            var element = _driver.FindElement(By.LinkText("Create a Message"));
+            element.Click();
         }
     }
 }

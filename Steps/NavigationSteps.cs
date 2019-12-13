@@ -3,35 +3,39 @@ using OpenQA.Selenium;
 using SeleniumTests.Pages;
 using System;
 using TechTalk.SpecFlow;
+using NUnit.Framework;
 
 namespace SeleniumTests.Steps
 {
-    [Binding]
+    [Binding]    
     public class NavigationSteps
     {
         private IWebDriver _driver;
+        private BasePage _page;
         public NavigationSteps(IObjectContainer objectContainer)
         {
             _driver = objectContainer.Resolve<IWebDriver>();
         }
 
         [Given(@"I am on the '(.*)' page")]
-        public void GivenIAmOnThePage(string p0)
+        public void GivenIAmOnThePage(BasePage page)
         {
-            var page = new HomePage(_driver);
-            page.Open();
+            _page = page; 
+            _page.Open();            
         }
         
-        [When(@"I click '(.*)' page link")]
-        public void WhenIClickPageLink(string p0)
+
+        [When(@"I click '(.*)' page link on header")]
+        public void WhenIClickPageLink(string link)
         {
-            ScenarioContext.Current.Pending();
+            _page = _page.GetHeaderElement().ClickLink(link);
         }
         
         [Then(@"'(.*)' page should be open")]
-        public void ThenPageShouldBeOpen(string p0)
-        {
-            ScenarioContext.Current.Pending();
+        public void ThenPageShouldBeOpen(BasePage page)
+        {            
+            Assert.IsTrue(page.IsPageOpen(), $"Page {page} is not opened");
         }
+
     }
 }
